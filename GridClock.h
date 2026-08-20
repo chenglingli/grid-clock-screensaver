@@ -4,5 +4,6 @@
 {
     IBOutlet id configSheet;
     IBOutlet id screenDisplayOption;
+    BOOL shouldDrawClock;
 }
 @end

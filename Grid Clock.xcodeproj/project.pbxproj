@@ -8,9 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3A40066E18B53113005F43A6 /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A40066D18B53113005F43A6 /* ScreenSaver.framework */; };
-		3A40068318B53129005F43A6 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A40068218B53129005F43A6 /* WebKit.framework */; };
 		77996CD91C94B825006B0FF7 /* GridClock.m in Sources */ = {isa = PBXBuildFile; fileRef = 77996CD81C94B825006B0FF7 /* GridClock.m */; };
-		77AD4D2D2041D6A9001100EC /* Webview in Resources */ = {isa = PBXBuildFile; fileRef = 77AD4D2C2041D6A9001100EC /* Webview */; };
 		77AD4D2F2041DBC6001100EC /* ConfigureSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77AD4D2E2041DBC6001100EC /* ConfigureSheet.xib */; };
 		77AD4D312041E44A001100EC /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77AD4D302041E44A001100EC /* AppKit.framework */; };
 		77AD4D332041F756001100EC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77AD4D322041F756001100EC /* Cocoa.framework */; };
@@ -19,7 +17,6 @@
 /* Begin PBXFileReference section */
 		3A40066818B53112005F43A6 /* Grid Clock.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Grid Clock.saver"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A40066D18B53113005F43A6 /* ScreenSaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScreenSaver.framework; path = System/Library/Frameworks/ScreenSaver.framework; sourceTree = SDKROOT; };
-		3A40068218B53129005F43A6 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		3A95A94B18EA12D30036779C /* GridClock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridClock.h; sourceTree = SOURCE_ROOT; };
 		77996CD61C94B804006B0FF7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
 		77996CD81C94B825006B0FF7 /* GridClock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridClock.m; sourceTree = SOURCE_ROOT; };
@@ -36,7 +33,6 @@
 			files = (
 				77AD4D332041F756001100EC /* Cocoa.framework in Frameworks */,
 				77AD4D312041E44A001100EC /* AppKit.framework in Frameworks */,
-				3A40068318B53129005F43A6 /* WebKit.framework in Frameworks */,
 				3A40066E18B53113005F43A6 /* ScreenSaver.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -66,7 +62,6 @@
 			children = (
 				77AD4D322041F756001100EC /* Cocoa.framework */,
 				77AD4D302041E44A001100EC /* AppKit.framework */,
-				3A40068218B53129005F43A6 /* WebKit.framework */,
 				3A40066D18B53113005F43A6 /* ScreenSaver.framework */,
 			);
 			name = Frameworks;
@@ -152,7 +147,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77AD4D2D2041D6A9001100EC /* Webview in Resources */,
 				77AD4D2F2041DBC6001100EC /* ConfigureSheet.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

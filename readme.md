@@ -16,7 +16,7 @@ The project deployment target is macOS 10.11. It has been tested on macOS
 
 ## Install a release
 
-Download a `.saver` bundle from the [Releases](https://github.com/chrstphrknwtn/grid-clock-screensaver/releases) page, then double-click it and choose **Install** (or **Replace** when updating an existing installation). Select **Grid Clock** in **System Settings → Wallpaper → Screen Saver**.
+Download [`Grid Clock 0.1.0`](https://github.com/chenglingli/grid-clock-screensaver/releases/download/0.1.0/Grid.Clock.0.1.0.saver.zip), then double-click it and choose **Install** (or **Replace** when updating an existing installation). Select **Grid Clock** in **System Settings → Wallpaper → Screen Saver**.
 
 ## Build and test locally
 
